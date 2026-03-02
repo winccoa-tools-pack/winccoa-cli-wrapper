@@ -1,0 +1,22 @@
+{
+  "name": "wcoa",
+  "version": "1.0.0",
+  "description": "WinCC OA CLI wrapper — register installations, run tools, use shortcuts",
+  "type": "module",
+  "bin": {
+    "wcoa": "./bin/wcoa.js"
+  },
+  "scripts": {
+    "start": "node bin/wcoa.js"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "conf": "^12.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["winccoa", "scada", "cli", "siemens"],
+  "license": "MIT"
+}
